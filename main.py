@@ -53,6 +53,20 @@ a:hover {
     color: orange !important;
 }
             
+hr {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+            
+
+.techstack {
+    border: 1px solid #5A5A5A !important;
+    border-radius: 5px;
+    padding: 8px !important;
+    width: fit-content !important;
+    margin-right: 20px;
+}
+            
 
 </style>
 """, unsafe_allow_html=True)
@@ -110,6 +124,25 @@ st.markdown(':heavy_check_mark: Expert level SQL manipulator')
 st.markdown(':heavy_check_mark: Advanced reporting skills')
 st.markdown(':heavy_check_mark: All around fun guy to hang with')
 
+st.header('Tech Stack')
+st.write('')
+st.markdown(
+    '''<span class="techstack"> Python, JavaScript, Groovy </span> 
+    <span class="techstack"> SQL, PostgreSQL, BigQuery, Snowflake</span>
+    <span class="techstack"> Spark, Kafka</span>
+    
+        '''
+    , unsafe_allow_html=True
+)
+st.write('')
+st.markdown(
+    '''<span class="techstack"> SSIS, Boomi, Airflow</span> 
+    <span class="techstack"> SSRS, Power BI, Excel</span>
+        '''
+    , unsafe_allow_html=True
+)
+st.write('')
+
 st.markdown("""---""")
 
 st.header('Accomplishments')
@@ -155,6 +188,45 @@ chart = (
 st.altair_chart(chart, use_container_width=True)
 
 
+
+st.markdown("""---""")
+
+
+
+st.header('Awards & Certifications')
+
+st.markdown("""---""")
+
+#st.write("check out this [link](%s)" % url)
+#st.markdown("check out this [link](%s)" % url)
+
+url = "https://drive.google.com/file/d/19oGhjLCHCspf9cTGuxQzoRxijPpslbdm/view"
+st.write('[🏆 Zumiez Team Of The Year - 2022](%s)' % url)
+
+st.markdown("""---""")
+
+url = "https://drive.google.com/file/d/1n7glY7munISWT_6_puXIM4RohBzxoQFi/view"
+st.write('[🏆 Zumiez Project Team Of The Year - 2022](%s)' % url)
+
+st.markdown("""---""")
+
+url = "https://drive.google.com/file/d/1nG-4erE6I-uzd1tGEE1Rv2tLhbDvX_wp/view"
+st.write('[🏆 Zumiez Team Of The Year - 2020](%s)' % url)
+
+st.markdown("""---""")
+
+url = "https://drive.google.com/file/d/12DyvNYgba8-rufJeWGiGO6cYwNlzhEGI/view"
+st.write('[📜 Boomi Development and Application Architecture Certification](%s)' % url)
+
+st.markdown("""---""")
+
+url = "https://drive.google.com/file/d/1Tnl9xmOtYgEOeqU6QRNwtHAXVU28ZRiJ/view"
+st.write('[📜 Boomi Professional Developer Certification](%s)' % url)
+
+st.markdown("""---""")
+
+url = "https://drive.google.com/file/d/15Q7fqwD4pnS0fPLW6W-v7vHXKHEHaZMu/view"
+st.write('[📜 Boomi Associate Developer Certification](%s)' % url)
 
 st.markdown("""---""")
 
@@ -231,31 +303,3 @@ with tab3:
     ).properties(title="Data Engineer - Retail Comparison")
     st.altair_chart(chart, use_container_width=True)
 
-st.markdown("""---""")
-
-st.header('Awards & Certifications')
-
-tab1, tab2= st.tabs(
-    ["Zumiez", 
-     "Boomi"]
-)
-
-with tab1:
-    image = Image.open('assets/zumiez_toty_2020.jpg')
-    st.image(image)
-
-    image = Image.open('assets/zumiez_toty_2022.jpg')
-    st.image(image)
-
-    image = Image.open('assets/zumiez_ptoty_2022.jpg')
-    st.image(image)
-
-with tab2:
-    image = Image.open('assets/Boomi_Cert.png')
-    st.image(image)
-
-    image = Image.open('assets/Boomi-ProfessionalDeveloper.png')
-    st.image(image)
-
-    image = Image.open('assets/Boomi_ArchitectureCert.png')
-    st.image(image)
