@@ -201,34 +201,51 @@ st.markdown("""---""")
 #st.markdown("check out this [link](%s)" % url)
 
 url = "https://drive.google.com/file/d/19oGhjLCHCspf9cTGuxQzoRxijPpslbdm/view"
-st.write('[🏆 Zumiez Team Of The Year - 2022](%s)' % url)
+st.write('[🏆 Zumiez - Team Of The Year - 2022](%s)' % url)
 
 st.markdown("""---""")
 
 url = "https://drive.google.com/file/d/1n7glY7munISWT_6_puXIM4RohBzxoQFi/view"
-st.write('[🏆 Zumiez Project Team Of The Year - 2022](%s)' % url)
+st.write('[🏆 Zumiez - Project Team Of The Year - 2022](%s)' % url)
 
 st.markdown("""---""")
 
 url = "https://drive.google.com/file/d/1nG-4erE6I-uzd1tGEE1Rv2tLhbDvX_wp/view"
-st.write('[🏆 Zumiez Team Of The Year - 2020](%s)' % url)
+st.write('[🏆 Zumiez - Team Of The Year - 2020](%s)' % url)
 
 st.markdown("""---""")
 
 url = "https://drive.google.com/file/d/12DyvNYgba8-rufJeWGiGO6cYwNlzhEGI/view"
-st.write('[📜 Boomi Development and Application Architecture Certification](%s)' % url)
+st.write('[📜 Boomi - Development and Application Architecture Certification](%s)' % url)
 
 st.markdown("""---""")
 
 url = "https://drive.google.com/file/d/1Tnl9xmOtYgEOeqU6QRNwtHAXVU28ZRiJ/view"
-st.write('[📜 Boomi Professional Developer Certification](%s)' % url)
+st.write('[📜 Boomi - Professional Developer Certification](%s)' % url)
 
 st.markdown("""---""")
 
 url = "https://drive.google.com/file/d/15Q7fqwD4pnS0fPLW6W-v7vHXKHEHaZMu/view"
-st.write('[📜 Boomi Associate Developer Certification](%s)' % url)
+st.write('[📜 Boomi - Associate Developer Certification](%s)' % url)
 
 st.markdown("""---""")
+
+url = "https://learn.microsoft.com/en-us/training/achievements/learn.wwl.model-data-power-bi.trophy?username=BryanMoore-4081&sharingId=E3FF8FB620E87710"
+st.write('[🎓 Microsoft - Model data with Power BI](%s)' % url)
+
+st.markdown("""---""")
+
+url = "https://learn.microsoft.com/en-us/training/achievements/learn.wwl.get-transform-data-power-bi.trophy?username=BryanMoore-4081&sharingId=E3FF8FB620E87710"
+st.write('[🎓 Microsoft - Get and transform data with Power BI](%s)' % url)
+
+st.markdown("""---""")
+
+url = "https://learn.microsoft.com/en-us/training/achievements/learn-bizapps.data-preparation-in-power-bi.trophy?username=BryanMoore-4081&sharingId=E3FF8FB620E87710"
+st.write('[🎓 Microsoft - Prepare data for analysis with Power BI](%s)' % url)
+
+st.markdown("""---""")
+
+
 
 st.header('Salary')
 
