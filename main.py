@@ -246,7 +246,7 @@ st.write('[🎓 Microsoft - Prepare data for analysis with Power BI](%s)' % url)
 st.markdown("""---""")
 
 
-
+'''
 st.header('Salary')
 
 tab1, tab2, tab3 = st.tabs(["Base Compensation", "Total Compensation", "Retail Compensation"])
@@ -320,3 +320,4 @@ with tab3:
     ).properties(title="Data Engineer - Retail Comparison")
     st.altair_chart(chart, use_container_width=True)
 
+'''
